@@ -17,103 +17,131 @@ import tremereImagem from "../assets/tremere.jpg";
 import tzimisceImagem from "../assets/tzimisce.jpg";
 import ventrueImagem from "../assets/ventrue.jpg";
 
-const clans = {
-  BanuHaqim: {
+const clans = [
+  {
+    id: 1,
+    nome: "BanuHaqim",
     camarilla: false,
     imagem: banuHaqimImagem,
     lore: "Assassinos disciplinados que seguem um código de honra sombrio e silencioso.",
     disciplinas: ["Ofuscação", "Quietus", "Celeridade"]
   },
 
-  Brujah: {
+  {
+    id: 2,
+    nome: "Brujah",
     camarilla: true,
     imagem: brujahImagem,
     lore: "Rebeldes passionais que lutam contra a autoridade e defendem a liberdade.",
     disciplinas: ["Potência", "Presença", "Celeridade"]
   },
 
-  Gangrel: {
+  {
+    id: 3,
+    nome: "Gangrel",
     camarilla: true,
     imagem: gangrelImagem,
     lore: "Viajantes selvagens ligados à natureza e ao instinto animal.",
     disciplinas: ["Animalismo", "Fortitude", "Proteanismo"]
   },
 
-  Hecata: {
+  {
+    id: 4,
+    nome: "Hecata",
     camarilla: false,
     imagem: hecataImagem,
     lore: "Família sombria ligada à morte, espíritos e necromancia.",
     disciplinas: ["Auspex", "Domínio da Morte", "Fortitude"]
   },
 
-  Lasombra: {
+  {
+    id: 5,
+    nome: "Lasombra",
     camarilla: false,
     imagem: lasombraImagem,
     lore: "Senhores das sombras e manipuladores do poder através da escuridão.",
     disciplinas: ["Domínio das Sombras", "Potência", "Obtenebração"]
   },
 
-  Malkavian: {
+  {
+    id: 6,
+    nome: "Malkavian",
     camarilla: true,
     imagem: malkavianImagem,
     lore: "Profetas da loucura que veem verdades escondidas na insanidade.",
     disciplinas: ["Auspex", "Demência", "Ofuscação"]
   },
 
-  Ministry: {
+  {
+    id: 7,
+    nome: "Ministry",
     camarilla: false,
     imagem: ministryImagem,
     lore: "Sedutores e manipuladores que usam desejo e fé como armas.",
     disciplinas: ["Ofuscação", "Presença", "Animalismo"]
   },
 
-  Nosferatu: {
+  {
+    id: 8,
+    nome: "Nosferatu",
     camarilla: true,
     imagem: nosferatuImagem,
     lore: "Monstros escondidos nas sombras, mestres da informação secreta.",
     disciplinas: ["Ofuscação", "Animalismo", "Potência"]
   },
 
-  Ravnos: {
+  {
+    id: 9,
+    nome: "Ravnos",
     camarilla: false,
     imagem: ravnosImagem,
     lore: "Trapaceiros errantes que vivem de ilusões e liberdade.",
     disciplinas: ["Quimerismo", "Animalismo", "Fortitude"]
   },
 
-  Salubri: {
+  {
+    id: 10,
+    nome: "Salubri",
     camarilla: false,
     imagem: salubriImagem,
     lore: "Curadores raros e perseguidos, ligados ao equilíbrio espiritual.",
     disciplinas: ["Auspex", "Fortitude", "Valeren"]
   },
 
-  Toreador: {
+  {
+    id: 11,
+    nome: "Toreador",
     camarilla: true,
     imagem: toreadorImagem,
     lore: "Artistas e hedonistas obcecados por beleza e perfeição.",
     disciplinas: ["Auspex", "Presença", "Rapidez"]
   },
 
-  Tremere: {
+  {
+    id: 12,
+    nome: "Tremere",
     camarilla: true,
     imagem: tremereImagem,
     lore: "Feiticeiros do sangue que controlam magia vampírica proibida.",
     disciplinas: ["Taumaturgia", "Auspex", "Domínio"]
   },
 
-  Tzimisce: {
+  {
+    id: 13,
+    nome: "Tzimisce",
     camarilla: false,
     imagem: tzimisceImagem,
     lore: "Senhores da carne que moldam corpos como esculturas vivas.",
     disciplinas: ["Vicissitude", "Animalismo", "Auspex"]
   },
 
-  Ventrue: {
+  {
+    id: 14,
+    nome: "Ventrue",
     camarilla: true,
     imagem: ventrueImagem,
     lore: "Nobres líderes que controlam poder, disciplina e hierarquia.",
     disciplinas: ["Domínio", "Fortitude", "Presença"]
   }
-};
+];
 export default clans
