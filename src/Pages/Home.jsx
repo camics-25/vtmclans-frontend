@@ -52,7 +52,8 @@ function Home(){
       <section className="center">
         {listaClans.map((clans) => (
           <ClanCard
-            key={clans.nome}
+            key={clans.id}
+            id={clans.id}
             nome={clans.nome}
             imagem={clans.imagem}
             camarilla={clans.camarilla}

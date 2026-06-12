@@ -1,53 +1,41 @@
 import "./ClanCard.css";
 import ClanButton from "../ClanButton/ClanButton";
-import clans from "../../Data/clans"
 import { Link } from "react-router-dom";
 
+
 function ClanCard({ nome, imagem, camarilla, disciplinas, id, onSelect }) {
-   return (
-    <div className="CardClans">
-      <link to={`/vtmclans-frontend/${id}`}>
+  return (
+<Link to={`/vtmclans-frontend/${id}`}>
+    <div className="card-container">
+      <div className="card">
+
+
+
       
-      </link>
+        {/* FRONT */}
+        <div className="card-front">
+          <img src={imagem} alt={nome} />
+          <h3>{nome}</h3>
+          <p>
+            Membro da Camarilla: {camarilla ? "Sim" : "Não"} 
+          </p>
+        </div>
+
+        {/* BACK */}
+        <div className="card-back">
+          <h4>Disciplinas:</h4>
+
+          <ul className="disciplinas-list">
+            {disciplinas.map((d, i) => (
+              <li key={i}>{d}</li>))}</ul>
+        
+
+          <ClanButton text="Selecionar Clan" onClick={onSelect} />
+        </div>
+      </div>
     </div>
-
+</Link>
   );
-
-
-  }
-
-
-
-// function ClanCard({ nome, imagem, camarilla, disciplinas, onSelect }) {
-//   return (
-    // <div className="card-container">
-    //   <div className="card">
-
-    //     {/* FRONT */}
-    //     <div className="card-front">
-    //       <img src={imagem} alt={nome} />
-    //       <h3>{nome}</h3>
-    //       <p>
-    //         Membro da Camarilla: {camarilla ? "Sim" : "Não"} 
-    //       </p>
-    //     </div>
-
-    //     {/* BACK */}
-    //     <div className="card-back">
-    //       <h4>Disciplinas:</h4>
-
-    //       <ul className="disciplinas-list">
-    //         {disciplinas.map((d, i) => (
-    //           <li key={i}>{d}</li>
-    //         ))}
-    //       </ul>
-
-    //       <ClanButton text="Selecionar Clan" onClick={onSelect} />
-    //     </div>
-
-    //   </div>
-    // </div>
-//   );
-// }
+}
 
 export default ClanCard;
