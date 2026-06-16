@@ -2,6 +2,7 @@ import { useState } from "react";
 import ClanCard from "../Components/ClanCard/ClanCard";
 import ClanButton from "../Components/ClanButton/Clanbutton";
 import clans from "../Data/clans";
+import "./Home.css";
 
 function Home(){
 
@@ -31,23 +32,13 @@ function Home(){
     const totalClans = listaClans.length;
 
    function selecionarClan(nome) {
-    setBloodEffect(true);
-
-    setTimeout(() => {
-      setMensagem(
-        `Você selecionou o clan ${nome}, redirecionando para criação de personagem...`
-      );
-    }, 1200);
-
-    setTimeout(() => {
-      setClanSelecionado(nome);
-    }, 2000);
-  }
+    setBloodEffect(true)
+    }
 
   return (
     <div className={`app ${bloodEffect ? "blood" : ""}`}>
-      <h1>Clans - VTM</h1>
-      <h2>Total de Clãs: {totalClans}</h2>
+      <h1 id="title">Clans - VTM</h1>
+      <h2 id="subtitle">Total de Clãs: {totalClans}</h2>
 
       <section className="center">
         {listaClans.map((clans) => (
@@ -66,6 +57,8 @@ function Home(){
         {mensagem && <div className="message">{mensagem}</div>}
     </div>
   );
+  
 }
-
 export default Home;
+
+//add area-label and tabIndex (-1). ou comentar o botao

@@ -1,0 +1,83 @@
+.clan-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+  background: #000;
+  color: #f2f2f2;
+}
+
+.clan-page a {
+  align-self: flex-start;
+  color: #8b0000;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.clan-page a:hover {
+  color: crimson;
+}
+
+.clan-detail-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #120000 0%, #000000 50%, #1a0000 100%);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 20px;
+  padding: 25px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 0 30px rgba(255, 0, 60, 0.60);
+}
+
+.clan-detail-card img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(180, 0, 0);
+}
+
+.clan-detail-card h1 {
+  font-size: 2rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #8b0000;
+  text-shadow: 0 0 10px rgba(180, 0, 0, 0.8);
+  margin-bottom: 10px;
+}
+
+.clan-detail-card p {
+  color: #d8c0c0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 6px 0;
+}
+
+.clan-detail-card h2 {
+  color: #8b0000;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.clan-detail-card ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.clan-detail-card ul li {
+  color: #f2f2f2;
+  letter-spacing: 2px;
+  font-size: 14px;
+}

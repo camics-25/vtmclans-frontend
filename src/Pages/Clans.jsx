@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom"
 import { Link } from "react-router-dom"
 import clans from "../Data/clans"
+import "./Clans.css"
 
 function Clans(){
     const { clanId } = useParams()
@@ -19,7 +20,7 @@ function Clans(){
           <p>Membro da Camarilla: {clan.camarilla ? "Sim" : "Não"}</p>
           <p>{clan.lore}</p>
 
-          <h3>Disciplinas:</h3>
+          <h2>Disciplinas:</h2>
           <ul>
             {clan.disciplinas.map((d, i) => (
               <li key={i}>{d}</li>

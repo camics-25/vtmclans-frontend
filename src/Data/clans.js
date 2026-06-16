@@ -24,7 +24,8 @@ const clans = [
     camarilla: false,
     imagem: banuHaqimImagem,
     lore: "Assassinos disciplinados que seguem um código de honra sombrio e silencioso.",
-    disciplinas: ["Ofuscação", "Quietus", "Celeridade"]
+    disciplinas: ["Ofuscação", "Quietus", "Celeridade"], 
+    membros: ["Fulano", "Fulano"]
   },
 
   {
@@ -33,7 +34,8 @@ const clans = [
     camarilla: true,
     imagem: brujahImagem,
     lore: "Rebeldes passionais que lutam contra a autoridade e defendem a liberdade.",
-    disciplinas: ["Potência", "Presença", "Celeridade"]
+    disciplinas: ["Potência", "Presença", "Celeridade"],
+    membros: ["Fulano", "Fulano"]
   },
 
   {
@@ -42,7 +44,8 @@ const clans = [
     camarilla: true,
     imagem: gangrelImagem,
     lore: "Viajantes selvagens ligados à natureza e ao instinto animal.",
-    disciplinas: ["Animalismo", "Fortitude", "Proteanismo"]
+    disciplinas: ["Animalismo", "Fortitude", "Proteanismo"],
+    membros: ["Fulano", "Fulano"]
   },
 
   {
@@ -51,7 +54,8 @@ const clans = [
     camarilla: false,
     imagem: hecataImagem,
     lore: "Família sombria ligada à morte, espíritos e necromancia.",
-    disciplinas: ["Auspex", "Domínio da Morte", "Fortitude"]
+    disciplinas: ["Auspex", "Domínio da Morte", "Fortitude"],
+    membros: ["Fulano", "Fulano"]
   },
 
   {
@@ -60,7 +64,8 @@ const clans = [
     camarilla: false,
     imagem: lasombraImagem,
     lore: "Senhores das sombras e manipuladores do poder através da escuridão.",
-    disciplinas: ["Domínio das Sombras", "Potência", "Obtenebração"]
+    disciplinas: ["Domínio das Sombras", "Potência", "Obtenebração"],
+    membros: ["Fulano", "Fulano"]
   },
 
   {
@@ -69,7 +74,8 @@ const clans = [
     camarilla: true,
     imagem: malkavianImagem,
     lore: "Profetas da loucura que veem verdades escondidas na insanidade.",
-    disciplinas: ["Auspex", "Demência", "Ofuscação"]
+    disciplinas: ["Auspex", "Demência", "Ofuscação"],
+    membros: ["Fulano", "Fulano"]
   },
 
   {
@@ -78,7 +84,8 @@ const clans = [
     camarilla: false,
     imagem: ministryImagem,
     lore: "Sedutores e manipuladores que usam desejo e fé como armas.",
-    disciplinas: ["Ofuscação", "Presença", "Animalismo"]
+    disciplinas: ["Ofuscação", "Presença", "Animalismo"],
+    membros: ["Fulano", "Fulano"]
   },
 
   {
@@ -87,7 +94,8 @@ const clans = [
     camarilla: true,
     imagem: nosferatuImagem,
     lore: "Monstros escondidos nas sombras, mestres da informação secreta.",
-    disciplinas: ["Ofuscação", "Animalismo", "Potência"]
+    disciplinas: ["Ofuscação", "Animalismo", "Potência"],
+    membros: ["Fulano", "Fulano"]
   },
 
   {
@@ -96,7 +104,8 @@ const clans = [
     camarilla: false,
     imagem: ravnosImagem,
     lore: "Trapaceiros errantes que vivem de ilusões e liberdade.",
-    disciplinas: ["Quimerismo", "Animalismo", "Fortitude"]
+    disciplinas: ["Quimerismo", "Animalismo", "Fortitude"],
+    membros: ["Fulano", "Fulano"]
   },
 
   {
@@ -105,7 +114,8 @@ const clans = [
     camarilla: false,
     imagem: salubriImagem,
     lore: "Curadores raros e perseguidos, ligados ao equilíbrio espiritual.",
-    disciplinas: ["Auspex", "Fortitude", "Valeren"]
+    disciplinas: ["Auspex", "Fortitude", "Valeren"],
+    membros: ["Fulano", "Fulano"]
   },
 
   {
@@ -114,7 +124,8 @@ const clans = [
     camarilla: true,
     imagem: toreadorImagem,
     lore: "Artistas e hedonistas obcecados por beleza e perfeição.",
-    disciplinas: ["Auspex", "Presença", "Rapidez"]
+    disciplinas: ["Auspex", "Presença", "Rapidez"],
+    membros: ["Fulano", "Fulano"]
   },
 
   {
@@ -123,7 +134,8 @@ const clans = [
     camarilla: true,
     imagem: tremereImagem,
     lore: "Feiticeiros do sangue que controlam magia vampírica proibida.",
-    disciplinas: ["Taumaturgia", "Auspex", "Domínio"]
+    disciplinas: ["Taumaturgia", "Auspex", "Domínio"],
+    membros: ["Fulano", "Fulano"]
   },
 
   {
@@ -132,7 +144,8 @@ const clans = [
     camarilla: false,
     imagem: tzimisceImagem,
     lore: "Senhores da carne que moldam corpos como esculturas vivas.",
-    disciplinas: ["Vicissitude", "Animalismo", "Auspex"]
+    disciplinas: ["Vicissitude", "Animalismo", "Auspex"],
+    membros: ["Fulano", "Fulano"]
   },
 
   {
@@ -141,7 +154,8 @@ const clans = [
     camarilla: true,
     imagem: ventrueImagem,
     lore: "Nobres líderes que controlam poder, disciplina e hierarquia.",
-    disciplinas: ["Domínio", "Fortitude", "Presença"]
+    disciplinas: ["Domínio", "Fortitude", "Presença"],
+    membros: ["Fulano", "Fulano"]
   }
 ];
 export default clans

@@ -8,11 +8,7 @@ function ClanCard({ nome, imagem, camarilla, disciplinas, id, onSelect }) {
 <Link to={`/vtmclans-frontend/${id}`}>
     <div className="card-container">
       <div className="card">
-
-
-
-      
-        {/* FRONT */}
+       
         <div className="card-front">
           <img src={imagem} alt={nome} />
           <h3>{nome}</h3>
@@ -21,7 +17,7 @@ function ClanCard({ nome, imagem, camarilla, disciplinas, id, onSelect }) {
           </p>
         </div>
 
-        {/* BACK */}
+    
         <div className="card-back">
           <h4>Disciplinas:</h4>
 
